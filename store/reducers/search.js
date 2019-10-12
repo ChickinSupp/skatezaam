@@ -1,6 +1,6 @@
 const initState = {
     search: '',
-}
+};
 
 const CURRENT_SEARCH = 'CURRENT_SEARCH';
 
@@ -15,4 +15,4 @@ export default (state = initState, action) => {
         default: 
             return state;
     }
-}
+};
